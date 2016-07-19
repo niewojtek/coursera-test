@@ -3,74 +3,90 @@
 	}
 
 	body {
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-
+		font-family: "Lucida Console", Monaco, monospace;
+		font-size: 18px;
+		margin-left: 15px;
+		margin-right: 0px;
 	}
 
 	h1 {
 		text-align: center;
+		font-size: 175%;
 	}
 
-	.par {
-		background-color: #40b7b3;
+	.content{
+		min-width: 200px;
+		margin-right: 15px;
+		margin-bottom: 15px;
 		border: 1px solid black;
-		margin-bottom: 20px;
+		background-color: #e1e9b7;
 	}
+
+	.chicken {background-color: #854442;}
+	.beef {background-color: #a69eb0;}
+	.sushi{background-color: #ffb3ba;}
 
 	.title{
-		text-align: center;
-		border: 1px solid green;
-		background-color: #e6cce6;
 		float: right;
-		width: 25%;
+		text-align: center;
+		border: 1px solid black;
+		left: 20px;
+		width: 150px;
+		font-size: 125%;
 	}
 
-	div p {
-		clear:right;
-	}
-
-	#pt2 {
-		background-color: #ee4035;
-	}
-
-	#pt3 {
-		background-color:  	#7ddc1f;
+	 .content > p {
+	 	clear: right;
+	 	margin-top: 40px;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: justify;
 	}
 
 
 
-	@media (min-width: 950px) and (max-width: 1199px) {
 
-	#par1{
-		margin-right: 2%
-	}
 
-	div.par {
-		width: 49%;
-		float: left;
-		margin-bottom: 2%;
-	}
-
-	#par3 {
-		width: 100%;
-	}
+	@media screen and (max-width: 767px){
+		.col-sm-12 {
+			float: left;
+		}
+		.col-sm-12 {
+			width:100%;
+		}
 
 	}
 
 
 
 
-	@media (min-width: 1200px) {
-		.par {
-			width: 32%;
+
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		.col-md-6, .col-md-12{
 			float: left;
 		}
 
-		#par1, #par2 {
-			margin-right: 2% 
+		.col-md-6{
+			width: 50%;
 		}
+		.col-md-12{
+			width:100%;
+		}
+
+	}
+
+
+
+
+	@media screen and (min-width: 992px) {
+		.col-lg-4{
+			float: left;
+		}
+
+		.col-lg-4{
+			width:33.3%;
+		}
+
 
 
 	}
