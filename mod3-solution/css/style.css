@@ -1,0 +1,55 @@
+body {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+h2  {
+  font-size: 150%;
+  margin-top: 10px;
+}
+
+h3  {
+  font-size: 125%;
+  padding-top: 10px;
+}
+
+.navbar-brand p {
+  font-size: 200%;
+}
+
+li a{
+  border-bottom: 1px solid black;
+}
+
+#collapsable-nav{
+  margin-top: 50px;
+}
+
+#header-nav {
+  background-color: #08ff00;
+}
+
+
+#chicken, #beef, #sushi {
+  padding-top: 0;
+  background-color: #c9c9ff;
+}
+
+div p:nth-child(2){
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+#chicken a, #beef a, #sushi a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
