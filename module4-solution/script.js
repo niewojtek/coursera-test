@@ -5,10 +5,10 @@
 		var firstLetter = names[item].charAt(0).toLowerCase();
 
 		if (firstLetter == "j"){
-			helloSpeaker.speak(name);
+			byeSpeaker.speak(name);
 		}
 		else{
-			byeSpeaker.speak(name);
+			helloSpeaker.speak(name);
 		}
 
 	}
